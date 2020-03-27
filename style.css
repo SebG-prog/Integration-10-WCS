@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  html {
+      background-color: black;
+  }
+  body {
+      max-width: 800px;
+      margin : auto;
+      background-color: white;
+      font-size: 12px;
+      color: #737373;
+      font-family: Arial, 'Courier New', Courier, monospace;
+  }
+
+  main {
+    margin: 0px 4px;
+    padding-top: 4px;
+}
+
+.card img {
+    padding: 5%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+footer {
+    padding-top: 10px;
+}
+
+.wantedFellows{
+    position: relative;
+}
+
+.rewards:hover {
+    opacity: 1;
+}
+.card {
+    border-radius: 5px;
+}
+.rewards {
+    position: absolute;
+    background-color: rgba(169, 169, 169, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity:0;
+}
+
+.rewards p {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-weight: bold;
+    color:white;
+    font-size: 1.3rem;
+    background-color: black;
+    border-radius: 4px;
+    margin-top:10%;
+}
+
+.dead p {
+    font-size: 2rem;
+    margin-top:50%;
+}
+
